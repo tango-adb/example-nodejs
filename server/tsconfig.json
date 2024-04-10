@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "lib/.tsbuildinfo",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "lib": ["ESNext", "DOM"],
+    "exactOptionalPropertyTypes": true
+  }
+}

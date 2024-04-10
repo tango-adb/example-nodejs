@@ -1,0 +1,36 @@
+{
+  "cSpell.words": [
+    "comlink",
+    "msgpack",
+    "msgpackr",
+    "Packr",
+    "scid",
+    "scrcpy",
+    "solidjs",
+    "tinyh",
+    "Unpackr",
+    "webcodecs",
+    "yume"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  }
+}
