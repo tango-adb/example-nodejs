@@ -20,15 +20,15 @@ The server can share a device with multiple clients, because the client operates
 
 [Comlink](https://github.com/GoogleChromeLabs/comlink) library is used to simplify the communication between the server and the client. It allows calling functions on the server from the client as if they were local functions.
 
-Comlink doesn't support WebSocket connections by default, so a custom endpoint object is created. It uses MsgPack format to serialize and deserialize Comlink messages.
+Comlink doesn't have built-in support for WebSocket connections, so a custom endpoint object is implemented to serialize and deserialize Comlink messages using MsgPack format.
 
-Note that although Comlink very easy to use, it's definitely not the most efficient way, due to its messaging overhead. Sending raw data on the WebSocket connection will be more efficient, for example using one WebSocket connection for each ADB socket.
+Note that although Comlink is very easy to use, it's definitely not the most efficient way, due to its messaging overhead. Sending raw data on the WebSocket connection will be more efficient, for example using one WebSocket connection for each ADB socket.
 
 ## Run
 
 ```bash
 git clone --recurse-submodules https://github.com/tango-adb/demo-nodejs.git
-pnpm i
+pnpm recursive i
 pnpm recursive run build
 ```
 
@@ -44,7 +44,7 @@ The server listens on port 8081.
 ### Start the client
 
 ```bash
-cd client
+cd web
 pnpm start
 ```
 
