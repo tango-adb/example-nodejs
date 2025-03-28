@@ -3,7 +3,7 @@
 This repository demonstrates how to access Android devices using Node.js, and forward the ADB connection to Web clients.
 
 > [!WARNING]
-> This one is outdated. See https://github.com/tango-adb/example-server-client for an updated and simpler example.
+> This example is outdated. See https://github.com/tango-adb/example-server-client for an updated and simpler example.
 
 ## Features
 
